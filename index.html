@@ -3,10 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+
   </head>
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
-    
+
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id="calculator">
+        <div class="form-group">
+          <label for="number1">1st number:</label>
+          <input id="number1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="number2">2nd number:</label>
+          <input id="number2" class="form-control" type="text">
+        </div>
+        <button  type="submit" class="btn" id="button1">Add!</button>
+        <button  type="submit" class="btn" id="button2">substract!</button>
+        <button  type="submit" class="btn" id="button3">multiply!</button>
+        <button  type="submit" class="btn" id="button4">divide!</button>
+  
+
+      </form>
+      <div id="output1">
+
+      </div>
+
+      <!-- <form id="subtract">
+        <div class="form-group">
+          <label for="subtract1">1st number:</label>
+          <input id="subtract1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="subtract2">2nd number:</label>
+          <input id="subtract2" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Subtract!</button>
+      </form>
+      <div id="output2">
+
+      </div> -->
+
+
   </body>
 </html>
