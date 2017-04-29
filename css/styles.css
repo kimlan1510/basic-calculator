@@ -1,3 +1,13 @@
-button{
-  display:inline;
+table{
+  table-layout: fixed;
+  border: 1px solid black;
+  width: 400px;
+}
+
+td{
+  border: 1px solid black;
+  height: 60px;
+}
+p{
+  text-align: center;
 }
