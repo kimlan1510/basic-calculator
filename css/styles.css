@@ -1,13 +1,51 @@
 table{
+  padding-top: 30px;
   table-layout: fixed;
   border: 1px solid black;
   width: 400px;
 }
 
 td{
+  background-color: #313138;
   border: 1px solid black;
   height: 60px;
-}
-p{
+  color: white;
   text-align: center;
+}
+
+td:hover{
+  background-color: #3b4741;
+}
+
+td:active{
+  background-color: #4a5951;
+}
+
+li{
+  display: inline-block;
+}
+
+.display{
+  width: 350px
+}
+
+#result{
+  height: 180px;
+  font-size: 35px;
+  font-family: sans-serif;
+  background-color: black;
+  word-wrap: normal;
+}
+
+result:hover{
+ background-color: none;
+
+}
+
+#equal:active{
+  background-color: #f1c40f;
+}
+
+.container-fluid{
+  padding-top: 50px;
 }
